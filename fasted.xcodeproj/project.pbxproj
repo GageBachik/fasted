@@ -31,6 +31,8 @@
 		91DC37E62A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */; };
 		91DC37E72A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */; };
 		91DC37EA2A6CC03D007432BC /* fasted widgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 91DC37D52A6CC03C007432BC /* fasted widgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91DC37F22A6CC145007432BC /* fasted.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37F02A6CC145007432BC /* fasted.xcdatamodeld */; };
+		91DC37F42A6CC180007432BC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37F32A6CC180007432BC /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,8 @@
 		91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = fasted_widgets.intentdefinition; sourceTree = "<group>"; };
 		91DC37E32A6CC03D007432BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91DC37E52A6CC03D007432BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DC37F12A6CC145007432BC /* fasted.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fasted.xcdatamodel; sourceTree = "<group>"; };
+		91DC37F32A6CC180007432BC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,7 @@
 		91DC37692A6CC025007432BC = {
 			isa = PBXGroup;
 			children = (
+				91DC37EF2A6CC13A007432BC /* Shared */,
 				91DC37742A6CC025007432BC /* fasted */,
 				91DC37852A6CC026007432BC /* fastedTests */,
 				91DC378F2A6CC026007432BC /* fastedUITests */,
@@ -311,6 +316,15 @@
 				91DC37E52A6CC03D007432BC /* Info.plist */,
 			);
 			path = "fasted widgets";
+			sourceTree = "<group>";
+		};
+		91DC37EF2A6CC13A007432BC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37F02A6CC145007432BC /* fasted.xcdatamodeld */,
+				91DC37F32A6CC180007432BC /* DataController.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,8 +580,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DC37F42A6CC180007432BC /* DataController.swift in Sources */,
 				91DC37782A6CC025007432BC /* ContentView.swift in Sources */,
 				91DC37E72A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */,
+				91DC37F22A6CC145007432BC /* fasted.xcdatamodeld in Sources */,
 				91DC37762A6CC025007432BC /* fastedApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1202,6 +1218,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91DC37F02A6CC145007432BC /* fasted.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91DC37F12A6CC145007432BC /* fasted.xcdatamodel */,
+			);
+			currentVersion = 91DC37F12A6CC145007432BC /* fasted.xcdatamodel */;
+			path = fasted.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91DC376A2A6CC025007432BC /* Project object */;
 }
