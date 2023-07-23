@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91DC37762A6CC025007432BC /* fastedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37752A6CC025007432BC /* fastedApp.swift */; };
+		91DC37782A6CC025007432BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37772A6CC025007432BC /* ContentView.swift */; };
+		91DC377A2A6CC026007432BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC37792A6CC026007432BC /* Assets.xcassets */; };
+		91DC377D2A6CC026007432BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC377C2A6CC026007432BC /* Preview Assets.xcassets */; };
+		91DC37872A6CC026007432BC /* fastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37862A6CC026007432BC /* fastedTests.swift */; };
+		91DC37912A6CC026007432BC /* fastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37902A6CC026007432BC /* fastedUITests.swift */; };
+		91DC37932A6CC026007432BC /* fastedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37922A6CC026007432BC /* fastedUITestsLaunchTests.swift */; };
+		91DC37992A6CC026007432BC /* fasted Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91DC37982A6CC026007432BC /* fasted Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91DC379E2A6CC026007432BC /* fastedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC379D2A6CC026007432BC /* fastedApp.swift */; };
+		91DC37A02A6CC026007432BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC379F2A6CC026007432BC /* ContentView.swift */; };
+		91DC37A22A6CC027007432BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC37A12A6CC027007432BC /* Assets.xcassets */; };
+		91DC37A52A6CC027007432BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC37A42A6CC027007432BC /* Preview Assets.xcassets */; };
+		91DC37AF2A6CC027007432BC /* fasted_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37AE2A6CC027007432BC /* fasted_Watch_AppTests.swift */; };
+		91DC37B92A6CC027007432BC /* fasted_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37B82A6CC027007432BC /* fasted_Watch_AppUITests.swift */; };
+		91DC37BB2A6CC027007432BC /* fasted_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37BA2A6CC027007432BC /* fasted_Watch_AppUITestsLaunchTests.swift */; };
+		91DC37D82A6CC03C007432BC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DC37D72A6CC03C007432BC /* WidgetKit.framework */; };
+		91DC37DA2A6CC03C007432BC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DC37D92A6CC03C007432BC /* SwiftUI.framework */; };
+		91DC37DD2A6CC03C007432BC /* fasted_widgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37DC2A6CC03C007432BC /* fasted_widgetsBundle.swift */; };
+		91DC37DF2A6CC03C007432BC /* fasted_widgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37DE2A6CC03C007432BC /* fasted_widgetsLiveActivity.swift */; };
+		91DC37E12A6CC03C007432BC /* fasted_widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37E02A6CC03C007432BC /* fasted_widgets.swift */; };
+		91DC37E42A6CC03D007432BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DC37E32A6CC03D007432BC /* Assets.xcassets */; };
+		91DC37E62A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */; };
+		91DC37E72A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */; };
+		91DC37EA2A6CC03D007432BC /* fasted widgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 91DC37D52A6CC03C007432BC /* fasted widgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91DC37832A6CC026007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37712A6CC025007432BC;
+			remoteInfo = fasted;
+		};
+		91DC378D2A6CC026007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37712A6CC025007432BC;
+			remoteInfo = fasted;
+		};
+		91DC379A2A6CC026007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37972A6CC026007432BC;
+			remoteInfo = "fasted Watch App";
+		};
+		91DC37AB2A6CC027007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37972A6CC026007432BC;
+			remoteInfo = "fasted Watch App";
+		};
+		91DC37B52A6CC027007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37972A6CC026007432BC;
+			remoteInfo = "fasted Watch App";
+		};
+		91DC37E82A6CC03D007432BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DC376A2A6CC025007432BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DC37D42A6CC03C007432BC;
+			remoteInfo = "fasted widgetsExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91DC37C12A6CC027007432BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				91DC37992A6CC026007432BC /* fasted Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37EE2A6CC03D007432BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91DC37EA2A6CC03D007432BC /* fasted widgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91DC37722A6CC025007432BC /* fasted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fasted.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37752A6CC025007432BC /* fastedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastedApp.swift; sourceTree = "<group>"; };
+		91DC37772A6CC025007432BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91DC37792A6CC026007432BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91DC377C2A6CC026007432BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91DC37822A6CC026007432BC /* fastedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37862A6CC026007432BC /* fastedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastedTests.swift; sourceTree = "<group>"; };
+		91DC378C2A6CC026007432BC /* fastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37902A6CC026007432BC /* fastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastedUITests.swift; sourceTree = "<group>"; };
+		91DC37922A6CC026007432BC /* fastedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91DC37982A6CC026007432BC /* fasted Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fasted Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC379D2A6CC026007432BC /* fastedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastedApp.swift; sourceTree = "<group>"; };
+		91DC379F2A6CC026007432BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91DC37A12A6CC027007432BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91DC37A42A6CC027007432BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91DC37AA2A6CC027007432BC /* fasted Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fasted Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37AE2A6CC027007432BC /* fasted_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_Watch_AppTests.swift; sourceTree = "<group>"; };
+		91DC37B42A6CC027007432BC /* fasted Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fasted Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37B82A6CC027007432BC /* fasted_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		91DC37BA2A6CC027007432BC /* fasted_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91DC37D52A6CC03C007432BC /* fasted widgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "fasted widgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DC37D72A6CC03C007432BC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		91DC37D92A6CC03C007432BC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		91DC37DC2A6CC03C007432BC /* fasted_widgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_widgetsBundle.swift; sourceTree = "<group>"; };
+		91DC37DE2A6CC03C007432BC /* fasted_widgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_widgetsLiveActivity.swift; sourceTree = "<group>"; };
+		91DC37E02A6CC03C007432BC /* fasted_widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fasted_widgets.swift; sourceTree = "<group>"; };
+		91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = fasted_widgets.intentdefinition; sourceTree = "<group>"; };
+		91DC37E32A6CC03D007432BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91DC37E52A6CC03D007432BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DC376F2A6CC025007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC377F2A6CC026007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37892A6CC026007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37952A6CC026007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37A72A6CC027007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37B12A6CC027007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37D22A6CC03C007432BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37DA2A6CC03C007432BC /* SwiftUI.framework in Frameworks */,
+				91DC37D82A6CC03C007432BC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91DC37692A6CC025007432BC = {
+			isa = PBXGroup;
+			children = (
+				91DC37742A6CC025007432BC /* fasted */,
+				91DC37852A6CC026007432BC /* fastedTests */,
+				91DC378F2A6CC026007432BC /* fastedUITests */,
+				91DC379C2A6CC026007432BC /* fasted Watch App */,
+				91DC37AD2A6CC027007432BC /* fasted Watch AppTests */,
+				91DC37B72A6CC027007432BC /* fasted Watch AppUITests */,
+				91DC37DB2A6CC03C007432BC /* fasted widgets */,
+				91DC37D62A6CC03C007432BC /* Frameworks */,
+				91DC37732A6CC025007432BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91DC37732A6CC025007432BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37722A6CC025007432BC /* fasted.app */,
+				91DC37822A6CC026007432BC /* fastedTests.xctest */,
+				91DC378C2A6CC026007432BC /* fastedUITests.xctest */,
+				91DC37982A6CC026007432BC /* fasted Watch App.app */,
+				91DC37AA2A6CC027007432BC /* fasted Watch AppTests.xctest */,
+				91DC37B42A6CC027007432BC /* fasted Watch AppUITests.xctest */,
+				91DC37D52A6CC03C007432BC /* fasted widgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DC37742A6CC025007432BC /* fasted */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37752A6CC025007432BC /* fastedApp.swift */,
+				91DC37772A6CC025007432BC /* ContentView.swift */,
+				91DC37792A6CC026007432BC /* Assets.xcassets */,
+				91DC377B2A6CC026007432BC /* Preview Content */,
+			);
+			path = fasted;
+			sourceTree = "<group>";
+		};
+		91DC377B2A6CC026007432BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91DC377C2A6CC026007432BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91DC37852A6CC026007432BC /* fastedTests */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37862A6CC026007432BC /* fastedTests.swift */,
+			);
+			path = fastedTests;
+			sourceTree = "<group>";
+		};
+		91DC378F2A6CC026007432BC /* fastedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37902A6CC026007432BC /* fastedUITests.swift */,
+				91DC37922A6CC026007432BC /* fastedUITestsLaunchTests.swift */,
+			);
+			path = fastedUITests;
+			sourceTree = "<group>";
+		};
+		91DC379C2A6CC026007432BC /* fasted Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				91DC379D2A6CC026007432BC /* fastedApp.swift */,
+				91DC379F2A6CC026007432BC /* ContentView.swift */,
+				91DC37A12A6CC027007432BC /* Assets.xcassets */,
+				91DC37A32A6CC027007432BC /* Preview Content */,
+			);
+			path = "fasted Watch App";
+			sourceTree = "<group>";
+		};
+		91DC37A32A6CC027007432BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37A42A6CC027007432BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91DC37AD2A6CC027007432BC /* fasted Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37AE2A6CC027007432BC /* fasted_Watch_AppTests.swift */,
+			);
+			path = "fasted Watch AppTests";
+			sourceTree = "<group>";
+		};
+		91DC37B72A6CC027007432BC /* fasted Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37B82A6CC027007432BC /* fasted_Watch_AppUITests.swift */,
+				91DC37BA2A6CC027007432BC /* fasted_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "fasted Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		91DC37D62A6CC03C007432BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37D72A6CC03C007432BC /* WidgetKit.framework */,
+				91DC37D92A6CC03C007432BC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DC37DB2A6CC03C007432BC /* fasted widgets */ = {
+			isa = PBXGroup;
+			children = (
+				91DC37DC2A6CC03C007432BC /* fasted_widgetsBundle.swift */,
+				91DC37DE2A6CC03C007432BC /* fasted_widgetsLiveActivity.swift */,
+				91DC37E02A6CC03C007432BC /* fasted_widgets.swift */,
+				91DC37E22A6CC03C007432BC /* fasted_widgets.intentdefinition */,
+				91DC37E32A6CC03D007432BC /* Assets.xcassets */,
+				91DC37E52A6CC03D007432BC /* Info.plist */,
+			);
+			path = "fasted widgets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DC37712A6CC025007432BC /* fasted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37C22A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted" */;
+			buildPhases = (
+				91DC376E2A6CC025007432BC /* Sources */,
+				91DC376F2A6CC025007432BC /* Frameworks */,
+				91DC37702A6CC025007432BC /* Resources */,
+				91DC37C12A6CC027007432BC /* Embed Watch Content */,
+				91DC37EE2A6CC03D007432BC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC379B2A6CC026007432BC /* PBXTargetDependency */,
+				91DC37E92A6CC03D007432BC /* PBXTargetDependency */,
+			);
+			name = fasted;
+			productName = fasted;
+			productReference = 91DC37722A6CC025007432BC /* fasted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91DC37812A6CC026007432BC /* fastedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37C52A6CC027007432BC /* Build configuration list for PBXNativeTarget "fastedTests" */;
+			buildPhases = (
+				91DC377E2A6CC026007432BC /* Sources */,
+				91DC377F2A6CC026007432BC /* Frameworks */,
+				91DC37802A6CC026007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC37842A6CC026007432BC /* PBXTargetDependency */,
+			);
+			name = fastedTests;
+			productName = fastedTests;
+			productReference = 91DC37822A6CC026007432BC /* fastedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91DC378B2A6CC026007432BC /* fastedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37C82A6CC027007432BC /* Build configuration list for PBXNativeTarget "fastedUITests" */;
+			buildPhases = (
+				91DC37882A6CC026007432BC /* Sources */,
+				91DC37892A6CC026007432BC /* Frameworks */,
+				91DC378A2A6CC026007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC378E2A6CC026007432BC /* PBXTargetDependency */,
+			);
+			name = fastedUITests;
+			productName = fastedUITests;
+			productReference = 91DC378C2A6CC026007432BC /* fastedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		91DC37972A6CC026007432BC /* fasted Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37BE2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch App" */;
+			buildPhases = (
+				91DC37942A6CC026007432BC /* Sources */,
+				91DC37952A6CC026007432BC /* Frameworks */,
+				91DC37962A6CC026007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fasted Watch App";
+			productName = "fasted Watch App";
+			productReference = 91DC37982A6CC026007432BC /* fasted Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91DC37A92A6CC027007432BC /* fasted Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37CB2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch AppTests" */;
+			buildPhases = (
+				91DC37A62A6CC027007432BC /* Sources */,
+				91DC37A72A6CC027007432BC /* Frameworks */,
+				91DC37A82A6CC027007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC37AC2A6CC027007432BC /* PBXTargetDependency */,
+			);
+			name = "fasted Watch AppTests";
+			productName = "fasted Watch AppTests";
+			productReference = 91DC37AA2A6CC027007432BC /* fasted Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91DC37B32A6CC027007432BC /* fasted Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37CE2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch AppUITests" */;
+			buildPhases = (
+				91DC37B02A6CC027007432BC /* Sources */,
+				91DC37B12A6CC027007432BC /* Frameworks */,
+				91DC37B22A6CC027007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DC37B62A6CC027007432BC /* PBXTargetDependency */,
+			);
+			name = "fasted Watch AppUITests";
+			productName = "fasted Watch AppUITests";
+			productReference = 91DC37B42A6CC027007432BC /* fasted Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		91DC37D42A6CC03C007432BC /* fasted widgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DC37EB2A6CC03D007432BC /* Build configuration list for PBXNativeTarget "fasted widgetsExtension" */;
+			buildPhases = (
+				91DC37D12A6CC03C007432BC /* Sources */,
+				91DC37D22A6CC03C007432BC /* Frameworks */,
+				91DC37D32A6CC03C007432BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fasted widgetsExtension";
+			productName = "fasted widgetsExtension";
+			productReference = 91DC37D52A6CC03C007432BC /* fasted widgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91DC376A2A6CC025007432BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91DC37712A6CC025007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					91DC37812A6CC026007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91DC37712A6CC025007432BC;
+					};
+					91DC378B2A6CC026007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91DC37712A6CC025007432BC;
+					};
+					91DC37972A6CC026007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					91DC37A92A6CC027007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91DC37972A6CC026007432BC;
+					};
+					91DC37B32A6CC027007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91DC37972A6CC026007432BC;
+					};
+					91DC37D42A6CC03C007432BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91DC376D2A6CC025007432BC /* Build configuration list for PBXProject "fasted" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91DC37692A6CC025007432BC;
+			productRefGroup = 91DC37732A6CC025007432BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91DC37712A6CC025007432BC /* fasted */,
+				91DC37812A6CC026007432BC /* fastedTests */,
+				91DC378B2A6CC026007432BC /* fastedUITests */,
+				91DC37972A6CC026007432BC /* fasted Watch App */,
+				91DC37A92A6CC027007432BC /* fasted Watch AppTests */,
+				91DC37B32A6CC027007432BC /* fasted Watch AppUITests */,
+				91DC37D42A6CC03C007432BC /* fasted widgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91DC37702A6CC025007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC377D2A6CC026007432BC /* Preview Assets.xcassets in Resources */,
+				91DC377A2A6CC026007432BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37802A6CC026007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC378A2A6CC026007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37962A6CC026007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37A52A6CC027007432BC /* Preview Assets.xcassets in Resources */,
+				91DC37A22A6CC027007432BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37A82A6CC027007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37B22A6CC027007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37D32A6CC03C007432BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37E42A6CC03D007432BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DC376E2A6CC025007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37782A6CC025007432BC /* ContentView.swift in Sources */,
+				91DC37E72A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */,
+				91DC37762A6CC025007432BC /* fastedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC377E2A6CC026007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37872A6CC026007432BC /* fastedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37882A6CC026007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37912A6CC026007432BC /* fastedUITests.swift in Sources */,
+				91DC37932A6CC026007432BC /* fastedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37942A6CC026007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37A02A6CC026007432BC /* ContentView.swift in Sources */,
+				91DC379E2A6CC026007432BC /* fastedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37A62A6CC027007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37AF2A6CC027007432BC /* fasted_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37B02A6CC027007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37B92A6CC027007432BC /* fasted_Watch_AppUITests.swift in Sources */,
+				91DC37BB2A6CC027007432BC /* fasted_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC37D12A6CC03C007432BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC37E12A6CC03C007432BC /* fasted_widgets.swift in Sources */,
+				91DC37E62A6CC03D007432BC /* fasted_widgets.intentdefinition in Sources */,
+				91DC37DF2A6CC03C007432BC /* fasted_widgetsLiveActivity.swift in Sources */,
+				91DC37DD2A6CC03C007432BC /* fasted_widgetsBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91DC37842A6CC026007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37712A6CC025007432BC /* fasted */;
+			targetProxy = 91DC37832A6CC026007432BC /* PBXContainerItemProxy */;
+		};
+		91DC378E2A6CC026007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37712A6CC025007432BC /* fasted */;
+			targetProxy = 91DC378D2A6CC026007432BC /* PBXContainerItemProxy */;
+		};
+		91DC379B2A6CC026007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37972A6CC026007432BC /* fasted Watch App */;
+			targetProxy = 91DC379A2A6CC026007432BC /* PBXContainerItemProxy */;
+		};
+		91DC37AC2A6CC027007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37972A6CC026007432BC /* fasted Watch App */;
+			targetProxy = 91DC37AB2A6CC027007432BC /* PBXContainerItemProxy */;
+		};
+		91DC37B62A6CC027007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37972A6CC026007432BC /* fasted Watch App */;
+			targetProxy = 91DC37B52A6CC027007432BC /* PBXContainerItemProxy */;
+		};
+		91DC37E92A6CC03D007432BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DC37D42A6CC03C007432BC /* fasted widgetsExtension */;
+			targetProxy = 91DC37E82A6CC03D007432BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91DC37BC2A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91DC37BD2A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		91DC37BF2A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fasted Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fasted;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gagebachik.fasted;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fasted.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91DC37C02A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fasted Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fasted;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gagebachik.fasted;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fasted.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		91DC37C32A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fasted/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fasted;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fasted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91DC37C42A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fasted/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fasted;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fasted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DC37C62A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fastedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasted.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fasted";
+			};
+			name = Debug;
+		};
+		91DC37C72A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fastedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasted.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fasted";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DC37C92A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fastedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fasted;
+			};
+			name = Debug;
+		};
+		91DC37CA2A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.fastedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fasted;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DC37CC2A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasted Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fasted Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91DC37CD2A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fasted Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fasted Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		91DC37CF2A6CC027007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fasted Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91DC37D02A6CC027007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fasted Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		91DC37EC2A6CC03D007432BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fasted widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fasted widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted.fasted-widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91DC37ED2A6CC03D007432BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "fasted widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "fasted widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.fasted.fasted-widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DC376D2A6CC025007432BC /* Build configuration list for PBXProject "fasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37BC2A6CC027007432BC /* Debug */,
+				91DC37BD2A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37BE2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37BF2A6CC027007432BC /* Debug */,
+				91DC37C02A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37C22A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37C32A6CC027007432BC /* Debug */,
+				91DC37C42A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37C52A6CC027007432BC /* Build configuration list for PBXNativeTarget "fastedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37C62A6CC027007432BC /* Debug */,
+				91DC37C72A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37C82A6CC027007432BC /* Build configuration list for PBXNativeTarget "fastedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37C92A6CC027007432BC /* Debug */,
+				91DC37CA2A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37CB2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37CC2A6CC027007432BC /* Debug */,
+				91DC37CD2A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37CE2A6CC027007432BC /* Build configuration list for PBXNativeTarget "fasted Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37CF2A6CC027007432BC /* Debug */,
+				91DC37D02A6CC027007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DC37EB2A6CC03D007432BC /* Build configuration list for PBXNativeTarget "fasted widgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DC37EC2A6CC03D007432BC /* Debug */,
+				91DC37ED2A6CC03D007432BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91DC376A2A6CC025007432BC /* Project object */;
+}
